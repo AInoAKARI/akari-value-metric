@@ -10,6 +10,7 @@ slack/channel     : Target channel name (optional)
 
 Usage:
     python notify_slack.py "メッセージ本文"
+    # 例: SLACK_CHANNEL="#my-channel" python notify_slack.py "Hello"
 """
 
 import json
